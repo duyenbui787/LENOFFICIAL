@@ -1,0 +1,38 @@
+/* GLOBAL */
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wp-inner {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* display: flex; */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul {
+    margin-bottom: 0!important;
+}
+
+ul li {
+    list-style: none!important;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.row {
+    margin: 0 !important;
+}

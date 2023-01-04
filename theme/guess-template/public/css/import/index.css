@@ -1,0 +1,136 @@
+#header {
+    background: #87715d;
+    max-width: 100%;
+    padding: 15px 0;
+    /* height: 75px;
+    line-height: 75px; */
+}
+
+#logo {
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav {
+    align-items: center;
+}
+
+ul#main-menu li a,
+ul#list-icon li a {
+    display: block;
+    font-size: 17px;
+    color: #fff;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+}
+
+ul li:hover a {
+    color: #fff;
+}
+
+ul#main-menu li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+
+/* END HEADER */
+
+#foot-top {
+    background: #494a48;
+    padding-top: 52px;
+    padding-bottom: 75px;
+}
+
+#foot-top .box h3 {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+    color: #ececec;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#foot-top .box {
+    font-size: 14px;
+}
+
+#foot-top .box .box-body {
+    margin-top: 40px;
+}
+
+#foot-top .box.about-us .box-body p,
+#foot-top .box.logo .box-body ul li p {
+    color: #f6f6f6;
+    margin-bottom: 0;
+}
+
+#foot-top .box.logo {
+    flex: 280px;
+    padding-right: 15px;
+}
+
+#foot-top .box.about-us {
+    flex: 680px;
+    padding-left: 15px;
+    padding-right: 195px;
+}
+
+#foot-top .box.about-us .box-body a {
+    color: #4db2ec;
+}
+
+#foot-top .box.about-us h3 {
+    font-size: 18px;
+}
+
+#foot-top .box.follow-us {
+    flex: 180px;
+    padding-left: 15px;
+}
+
+.box-body ul.list-social {
+    display: flex;
+}
+
+.box-body ul.list-social li {
+    margin-right: 10px;
+}
+
+.box-body ul.list-social li a {
+    display: block;
+    background: #434648;
+    color: #eeeeee;
+    padding: 6px 10px;
+}
+
+.box-body ul.list-social li:hover a {
+    color: #4db2ec;
+}
+
+
+/* ==========COPY-RIGHT========= */
+
+#foot-bottom {
+    background: #494a48;
+    padding: 8px;
+}
+
+#foot-bottom p {
+    margin-bottom: 0;
+    padding: 3px 0;
+    color: #ffffff;
+}
+
+#foot-bottom ul li a {
+    display: block;
+    margin-right: 30px;
+    color: #ffffff;
+}
+
+#foot-bottom ul li:hover a {
+    color: #4db2ec;
+}

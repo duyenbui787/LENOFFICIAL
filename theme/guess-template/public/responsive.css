@@ -1,0 +1,198 @@
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1600px) {
+    #menu-responsive {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .wp-inner {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .owl-carousel .carousel-title a {
+        font-size: 14px;
+    }
+    .owl-carousel .carousel-title span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* PRODUCT */
+    .card-columns {
+        column-count: 3!important;
+        width: 693px !important;
+    }
+    /* FOOTER */
+    #foot-top .box.about-us {
+        padding-right: 70px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    /*HEADER*/
+    #header {
+        padding: 12px 0;
+    }
+    ul#main-menu li a,
+    ul#list-icon li a {
+        line-height: 40px;
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+    /* DETAIL PRODUCT */
+    .product-intro .info-left ul.list-thumb {
+        width: 93px;
+    }
+    .product-intro .show-picture a img {
+        width: 93%;
+    }
+    /* PRODUCT */
+    .card-columns {
+        column-count: 2!important;
+        width: 436px !important;
+    }
+    /* FOOTER */
+    #foot-top .box.about-us {
+        padding-right: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* HEADER */
+    #header {
+        position: relative;
+    }
+    #toggle .icon-toggle {
+        color: #fff!important;
+        margin-right: 6px!important;
+        cursor: pointer;
+    }
+    ul#list-icon li a {
+        font-size: 14px;
+    }
+    ul#menu-responsive {
+        position: absolute;
+        top: 75px;
+        left: 0;
+        right: 0;
+        background: #6d5a4a;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        z-index: 6;
+        /* display: none!important; */
+    }
+    ul#menu-responsive li a {
+        display: block;
+        color: #fff;
+        padding: 10px 15px;
+    }
+    /* MAIN CONTENT */
+    .info-top .discount-label {
+        font-size: 10px;
+        width: 27px;
+    }
+    #discount-product .price .new-price {
+        font-size: 13px;
+    }
+    /* DETAIL PRODUCT */
+    .product-intro .show-picture a img {
+        width: 100%;
+    }
+    .product-intro .info-right {
+        padding-left: 15px!important;
+    }
+    .product-intro .info-right .product-head {
+        margin-top: 10px;
+    }
+    /* PRODUCT */
+    .sort-bar {
+        padding: 20px 40px;
+        margin-bottom: 20px;
+    }
+    .card-columns {
+        width: 474px !important;
+    }
+    .menu-sidebar {
+        margin-bottom: 20px;
+    }
+    .side-filter-inner {
+        width: 460px;
+    }
+    .menu-sidebar .side-filter-item-content {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /* MAIN CONTENT */
+    .section-head h3.section-title {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    #discount-product .price .new-price {
+        font-size: 17px;
+    }
+    /* PRODUCT */
+    .sort-bar-dropdown {
+        width: 160px;
+    }
+    .card-columns {
+        column-count: 1!important;
+        width: 275px !important;
+    }
+    .side-filter-inner {
+        width: 277px;
+    }
+    /* DETAIL PRODUCT */
+    .product-intro .info-left {
+        padding-right: 0!important;
+    }
+    /* FOOTER */
+    #foot-top {
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
+    .about-us,
+    .follow-us {
+        padding-left: 0!important;
+        margin-top: 30px!important;
+    }
+    .box-body {
+        margin-top: 12px!important;
+    }
+    #foot-bottom p {
+        font-size: 15px!important;
+    }
+    #foot-bottom ul li a {
+        font-size: 13px;
+    }
+    ul#footer-copy-right {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    /* DETAIL-PRODUCT */
+    .info-right {
+        width: 100%!important;
+    }
+    .info-right .SKU-review-product .SKU-product {
+        display: block!important;
+    }
+    .card-product-add .product-add-icon-heart .product-add .btn-product-add {
+        width: 100%important;
+        min-width: 100%!important;
+    }
+    /* PRODUCT */
+    .list-product {
+        padding-left: 0!important;
+    }
+    .card-columns {
+        width: 280px !important;
+    }
+}
